@@ -1,0 +1,38 @@
+.header {
+  height: 100px;
+  background: rgba(87, 86, 86, 0.947);
+}
+
+.main-container {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  .containerOffer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 140px;
+    width: 250px;
+
+    p {
+      padding: 10px;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background: rgba(87, 86, 86, 0.947);
+  span {
+    font-weight: bold;
+  }
+}
